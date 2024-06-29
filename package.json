@@ -1,0 +1,13 @@
+{
+  "name": "zts-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @zts-blog/backend run develop && pnpm --filter @zts-blog/frontend run dev",
+    "build": "pnpm --filter @zts-blog/backend run build && pnpm --filter @zts-blog/frontend run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
