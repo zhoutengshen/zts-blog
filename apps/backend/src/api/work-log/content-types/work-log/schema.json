@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_logs",
+  "info": {
+    "singularName": "work-log",
+    "pluralName": "work-logs",
+    "displayName": "work_log",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logItem": {
+      "displayName": "logItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "log-item.log-item",
+      "required": true
+    }
+  }
+}

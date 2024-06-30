@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @zts-blog/backend run develop && pnpm --filter @zts-blog/frontend run dev",
-    "build": "pnpm --filter @zts-blog/backend run build && pnpm --filter @zts-blog/frontend run build"
+    "dev:back": "pnpm --filter @zts-blog/backend run develop",
+    "dev:front": "pnpm --filter @zts-blog/frontend run dev",
+    "build:back": "pnpm --filter @zts-blog/backend run build",
+    "build:front": "pnpm --filter @zts-blog/frontend run build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  }
 }
